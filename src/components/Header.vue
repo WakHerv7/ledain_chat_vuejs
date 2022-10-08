@@ -1,18 +1,19 @@
 <template>
-  <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+  <nav class="navbar navbar_wh default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
-        <div class="me-3">
+        <div class="me-3 sidebar_toggler_wh">
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
-            <span class="icon-menu"></span>
+            <!-- <span class="icon-menu"></span> -->
+            <i class="mdi mdi-chevron-left"></i>
           </button>
         </div>
         <div>
-          <a class="navbar-brand brand-logo" href="index.html">
-            <img src="images/logo.svg" alt="logo" />
+          <a class="navbar-brand brand-logo logo_container_wh" href="index.html">
+            <img src="@/assets/logo_ledain.jpg" alt="logo" />
           </a>
-          <a class="navbar-brand brand-logo-mini" href="index.html">
+          <!-- <a class="navbar-brand brand-logo-mini" href="index.html">
             <img src="images/logo-mini.svg" alt="logo" />
-          </a>
+          </a> -->
         </div>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-top">         
@@ -143,5 +144,110 @@ export default {
 </script>
 
 <style scoped>
+  .navbar_wh {
+    /* background: #231f20 !important; */
+  }
+  .navbar .navbar-menu-wrapper {
+    /* background: transparent !important; */
+    background: #231f20 !important;
+    color: white !important;
+    width: calc(100% - 240px);
+  }
+  .navbar .navbar-menu-wrapper i,
+  .navbar .navbar-menu-wrapper input {
+    color: white !important;
+  }
+  .navbar .navbar-brand-wrapper {
+    /* background: transparent !important; */
+    background: #231f20 !important;
+    color: white !important;
+    position: relative;
+    /* max-width: 240px;
+    width: unset */
+    width: 240px;
+    padding-left: 15px !important;
+  }
+  .sidebar-icon-only .navbar .navbar-brand-wrapper {
+    width: 90px;
+  }
+  .sidebar-icon-only .navbar .navbar-menu-wrapper {
+    width: calc(100% - 90px);
+  }
 
+  .logo_container_wh {
+    margin:10px 0;
+    height:70px;
+    width:70px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 7px;
+  }
+  .logo_container_wh img {
+    height:100% !important;
+    width:auto !important;
+    object-fit:cover;
+  }
+  .sidebar_toggler_wh {
+    position: absolute;
+    top: 10px !important;
+    right: 5px !important;
+  }
+
+  .sidebar-icon-only .navbar .navbar-brand-wrapper .brand-logo {
+    display: flex;
+    height:50px;
+    width:50px;
+    align-items:flex-end;
+    margin-top: 35px;
+  }
+  .sidebar-icon-only .navbar .navbar-brand-wrapper .sidebar_toggler_wh{
+    top: 5px !important;
+    right: -5px !important;
+  }
+  .navbar .navbar-brand-wrapper .navbar-toggler:not(.navbar-toggler-right) {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .sidebar-icon-only .navbar .navbar-brand-wrapper .navbar-toggler:not(.navbar-toggler-right) {
+    background: #000;
+    background-image: unset;
+    width: 25px;
+    height: 25px;
+  }
+
+
+  .sidebar-icon-only .navbar .navbar-brand-wrapper {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)) !important;
+  }
+
+
+  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown {
+    background: #231f20;
+    border-radius: 10px;
+    /* color: white; */
+  }
+  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown a:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown a:last-child {
+    border-bottom: none;
+  }
+  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown a,
+  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown a h6,
+  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown a p {
+    color: white !important;
+  }
+  .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown a i {
+    color: #a8e863 !important;
+  }
+
+  .badge-primary {
+    color: #a8e863;
+    border: 1px solid #a8e863;
+  }
 </style>

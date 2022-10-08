@@ -15,7 +15,7 @@
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
-            <h3><span class="text-black fw-bold">Messages</span></h3>
+            <h3><span class="fw-bold">Messages</span></h3>
           </div>
           <div class="row">
             <div class="col-sm-12">
@@ -47,12 +47,16 @@
                                   <div class="row">
                                     <div class="col-lg-12">
                                       <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <div>
+                                        <div class="chat_menu_title_container_wh">
                                           <h4 class="card-title card-title-dash">Chats</h4>
+                                          <a href="#">
+                                            <i class="mdi mdi-plus"></i>
+                                            <span>New group</span>
+                                          </a>
                                         </div>
                                       </div>
-                                      <div class="mt-3">
-                                        <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                      <div class="mt-3 chat_list_container_wh">
+                                        <div class="chat_list_item_wh wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
                                             <img class="img-sm rounded-10" src="images/faces/face1.jpg" alt="profile">
                                             <div class="wrapper ms-3">
@@ -60,11 +64,14 @@
                                               <small class="text-muted mb-0">162543</small>
                                             </div>
                                           </div>
-                                          <div class="text-muted text-small">
-                                            1h ago
+                                          <div class="text-muted text-small chat_list_item_rightside_wh">
+                                            <div>
+                                              <div class="bubble_gradient ml_w_10">2</div>
+                                            </div>
+                                            <span>1h ago</span>
                                           </div>
                                         </div>
-                                        <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="chat_list_item_wh wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
                                             <img class="img-sm rounded-10" src="images/faces/face2.jpg" alt="profile">
                                             <div class="wrapper ms-3">
@@ -72,11 +79,11 @@
                                               <small class="text-muted mb-0">162543</small>
                                             </div>
                                           </div>
-                                          <div class="text-muted text-small">
+                                          <div class="text-muted text-small chat_list_item_rightside_wh">
                                             1h ago
                                           </div>
                                         </div>
-                                        <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="chat_list_item_wh wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
                                             <img class="img-sm rounded-10" src="images/faces/face3.jpg" alt="profile">
                                             <div class="wrapper ms-3">
@@ -84,11 +91,14 @@
                                               <small class="text-muted mb-0">162543</small>
                                             </div>
                                           </div>
-                                          <div class="text-muted text-small">
-                                            1h ago
+                                          <div class="text-muted text-small chat_list_item_rightside_wh">
+                                            <div>
+                                              <div class="bubble_gradient ml_w_10">10</div>
+                                            </div>
+                                            <span>13min ago</span>
                                           </div>
                                         </div>
-                                        <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="chat_list_item_wh wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
                                             <img class="img-sm rounded-10" src="images/faces/face4.jpg" alt="profile">
                                             <div class="wrapper ms-3">
@@ -100,7 +110,7 @@
                                             1h ago
                                           </div>
                                         </div>
-                                        <div class="wrapper d-flex align-items-center justify-content-between pt-2">
+                                        <div class="chat_list_item_wh wrapper d-flex align-items-center justify-content-between pt-2">
                                           <div class="d-flex">
                                             <img class="img-sm rounded-10" src="images/faces/face5.jpg" alt="profile">
                                             <div class="wrapper ms-3">
@@ -120,12 +130,19 @@
                                   <div class="row">
                                     <div class="col-lg-12">
                                       <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <div>
+                                        <!-- <div>
                                           <h4 class="card-title card-title-dash">Members</h4>
+                                        </div> -->
+                                        <div class="chat_menu_title_container_wh">
+                                          <h4 class="card-title card-title-dash">Members</h4>
+                                          <a href="#">
+                                            <i class="mdi mdi-plus"></i>
+                                            <span>New member</span>
+                                          </a>
                                         </div>
                                       </div>
                                       <div class="mt-3">
-                                        <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="chat_list_item_wh wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
                                             <img class="img-sm rounded-10" src="images/faces/face1.jpg" alt="profile">
                                             <div class="wrapper ms-3">
@@ -137,7 +154,7 @@
                                             1h ago
                                           </div>
                                         </div>
-                                        <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="chat_list_item_wh wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
                                             <img class="img-sm rounded-10" src="images/faces/face2.jpg" alt="profile">
                                             <div class="wrapper ms-3">
@@ -164,7 +181,7 @@
                                         </div>
                                       </div>
                                       <div class="mt-3">
-                                        <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="chat_list_item_wh wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                           <div class="d-flex">
                                             <img class="img-sm rounded-10" src="images/faces/face1.jpg" alt="profile">
                                             <div class="wrapper ms-3">
@@ -235,7 +252,7 @@
                                 </main>
 
                                 <form @submit="onSubmit" class="msger-inputarea" ref="msgerInputarea">
-                                  <button class="msger-send-btn" ref="sendFileBtn" @click="getFile()"><i class="mdi mdi-paperclip"></i></button>
+                                  <div class="msger-send-btn" ref="sendFileBtn" @click="getFile()"><i class="mdi mdi-paperclip"></i></div>
                                   <input type="file" ref="fileInputW" name="chat_file_item" hidden="hidden" id="chat_file_item" class="chat_file_item">
                                   <input type="text" class="msger-input" ref="msgerInput" placeholder="Enter your message...">
                                   <button type="submit" class="msger-send-btn"><i class="mdi mdi-send"></i></button>
@@ -257,7 +274,7 @@
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
-        <Footer/>
+        <!-- <Footer/> -->
         <!-- partial -->
       </div>
       <!-- main-panel ends -->
@@ -269,13 +286,13 @@
 <script>
 import Header from '../components/Header.vue'
 import Sidebar from '../components/Sidebar.vue'
-import Footer from '../components/Footer.vue'
+// import Footer from '../components/Footer.vue'
 export default {
   name: 'HomeChat',
   components: {
     Header,
     Sidebar,
-    Footer
+    // Footer
   },
   props: {
     //...
@@ -296,16 +313,16 @@ export default {
     }
   },
   mounted() {
-    document.addEventListener("keyup", this.onKeyup);
+    this.$refs.msgerInput.addEventListener("keyup", this.onKeyup);
     this.$refs.fileInputW.addEventListener("change", this.sendInputFile);
   },
   beforeUnmount() {
-    document.removeEventListener("keyup", this.onKeyup);
+    this.$refs.msgerInput.removeEventListener("keyup", this.onKeyup);
     this.$refs.fileInputW.removeEventListener("change", this.sendInputFile);
   },
   methods: {
     onKeyup(event) {
-        if (event.key === "Enter") {
+        if (event.which === 13) {
           this.onSubmit(event)
         }
     },
@@ -463,6 +480,7 @@ export default {
 </script>
 
 <style scoped>
+
   .page-body-wrapper {
     padding-top: 70px !important;
   }
@@ -477,5 +495,110 @@ export default {
     height: 525px !important;
     overflow-y: auto;
   } */
+
+  .content-wrapper {
+    background: #231f20 !important;
+    color: white !important;
+  }
+  .content-wrapper a,
+  .content-wrapper small,
+  .content-wrapper input,
+  .content-wrapper h4,
+  .content-wrapper h3,
+  .content-wrapper h2,
+  .content-wrapper h1 {
+    color: white !important;
+  }
+  .content-wrapper a.active {
+    color: #A7E863 !important;
+    background: #a8e86340 !important;
+    padding: auto;
+  }
+  .card {
+    background-color: #000;
+    border: 1px solid #b8b8b855;
+  }
+  .home-tab .nav-tabs .nav-item .nav-link {
+    border-right: 1px solid #dee2e66c;
+  }
+  .home-tab .nav-tabs .nav-item:last-child  .nav-link{
+    border-right: none;
+  }
+  .chat_list_item_wh {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+  }
+  .chat_list_item_wh small {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .chat_list_item_wh:last-child {
+    border-bottom: none !important;
+  }
+  
+  /* //////////////////////////////////////////////////// */
+  .home-tab .nav-tabs {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+  }
+  .home-tab .nav-tabs a:first-child {
+    padding-left: 10px !important;
+  }
+  .chat_list_item_rightside_wh {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 40px;
+  }
+  .chat_list_item_rightside_wh span {
+    color: rgba(255, 255, 255, 0.5);
+    
+  }
+  .bubble_gradient {
+      height: 17px;
+      width: 17px;
+      border-radius: 50%;
+      color: white;
+      font-size: 10px;
+      font-weight: bolder;
+      background-image: linear-gradient(to bottom, #a8e863e6, #a8e86300);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .chat_list_container_wh {
+      overflow-y: auto;
+    }
+    .chat_list_container_wh::-webkit-scrollbar {
+      width: 6px;
+    }
+    .chat_list_container_wh::-webkit-scrollbar-track {
+      background: #000;
+    }
+    .chat_list_container_wh::-webkit-scrollbar-thumb {
+      background: rgb(62, 62, 62);
+    }
+
+    .chat_menu_title_container_wh {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    .chat_menu_title_container_wh a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 12px;
+      border-radius: 35px;
+      color: #A7E863 !important;
+      border: 1px solid #A7E863;
+      padding: 2px 5px;
+    }
+    .chat_menu_title_container_wh a i {
+      font-size: 20px;
+      line-height: 20px;
+    }
 </style>
 <style src="@/assets/css/chat/style.css"></style>
+
