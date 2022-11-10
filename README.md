@@ -1,4 +1,6 @@
-# ledain
+# Ledain Chat
+
+This project is a frontend for a custom chat application made with VueJs.
 
 ## Project setup
 ```
